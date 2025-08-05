@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Split PDF</title></head>
+<body>
+    <h2>Split PDF by Page</h2>
+    <form action="/split" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <input type="number" name="page" placeholder="Page number" required>
+        <button type="submit">Split</button>
+    </form>
+</body>
+</html>
